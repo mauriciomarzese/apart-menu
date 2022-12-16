@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1DCC7;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.logo-apart {
+    width: 150px;
+    margin-top: 1.4rem;
+
+}
+
+.titulo-principal {
+    margin-bottom: 2rem;
+}
+.titulo-carta {
+    
+    padding-top: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem;
+    
+}
+
+.menu-container  {
+    
+    width: 100vw ;
+    height: 100%;
+    border: none;
+    
+      
+} 
+
+.img-fondo {
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.precios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.nombre-producto {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    text-align: left; 
+    font-weight: 700;
+    
+    
+}
+
+.precio {
+    margin-right: 1.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact {
+   width: 100%; 
+    
+    
+    
+    
+}
+
+.list-container {
+    padding-left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.footer-list {
+    list-style: none;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.links {
+    text-decoration: none;
+    width: 100%;
+}
+
+.logo-footer {
+    width: 1.4rem;
+
+}
+
+@media (min-width: 640px ) {
+    .elementos {
+        justify-content: space-evenly;
+    
+    }
+}    
+
+
+
